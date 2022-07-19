@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vision"
+version = "0.1.0"
+description = ""
+authors = ["Sondre Kongsgård"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.23.1"
+Pillow = "9.2.0"  # Only used for saving an image to disk for visual inspection
+
+[tool.poetry.dev-dependencies]
+black = "22.6.0"
+mypy = "0.961"
+pytest = "7.1.2"
+pre-commit = "2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+strict = true

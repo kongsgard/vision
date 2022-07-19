@@ -1,0 +1,9 @@
+[submodule "vision/cpp/eigen"]
+	path = vision/cpp/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "vision/cpp/googletest"]
+	path = vision/cpp/googletest
+	url = https://github.com/google/googletest
+[submodule "vision/cpp/stb"]
+	path = vision/cpp/stb
+	url = https://github.com/nothings/stb
